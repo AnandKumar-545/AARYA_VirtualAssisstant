@@ -172,7 +172,7 @@ if __name__ == '__main__':
 
 	root = Tk()
 	root.title('A.A.R.Y.A.')
-	w_width, w_height = 350, 650
+	w_width, w_height = 375, 650
 	s_width, s_height = root.winfo_screenwidth(), root.winfo_screenheight()
 	x, y = (s_width/2)-(w_width/2), (s_height/2)-(w_height/2)
 	root.geometry('%dx%d+%d+%d' % (w_width,w_height,x,y-30)) #center location of the screen
@@ -211,7 +211,7 @@ if __name__ == '__main__':
 
 	footerStatus = Label(root1, text='|| 18981A0504 || 18981A0545 ||', font=('Arial Bold', 15), bg=background, fg='black')
 	footerStatus.pack(pady=(10,10))	
-	footer2Status = Label(root1, text='|| 18981A0525 || 18981A0520 ||', font=('Arial Bold', 15), bg=background, fg='black')
+	footer2Status = Label(root1, text='18981A0525||18981A0520||18981A0516', font=('Arial Bold', 15), bg=background, fg='black')
 	footer2Status.pack(pady=(10,10))	
 
 	if os.path.exists('userData/trainer.yml')==False:
